@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  font-family: 'Dosis', sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 1.3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 8rem;
+  color: #000000;
+}
+
+header .logo {
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+header .logo span {
+  margin: 0.2rem;
+  padding: 0.2rem 0.7rem;
+  background-color: #f2edeb;
+  color: #5e0790;
+  border-radius: 0.5rem;
+}
+
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #250338;
+  border-radius: 1rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header nav li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+  margin: 2rem;
+}
+
+header nav li a {
+  padding: 0.5rem;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 300;
+}
+
+header nav li a:hover {
+  background-color: #d1cbcb5e;
+  border-radius: 0.2rem;
+}
+
+header .nav-icon {
+  margin: 1rem;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 1.5rem;
+}
+
+header .none {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  opacity: 0;
+}
+
+header .active {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  opacity: 1;
+  z-index: 999;
+}
+/*# sourceMappingURL=header.css.map */

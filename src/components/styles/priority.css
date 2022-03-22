@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap");
+.component-block {
+  height: auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 3rem;
+  margin-top: 5rem;
+  margin-left: 4.6rem;
+  border: 2px rgba(0, 0, 0, 0.678) solid;
+  width: 24vw;
+  display: inline-block;
+  padding: 2rem;
+  border-radius: 2rem;
+  background-color: #6f3dbd;
+  color: #ffff;
+  -webkit-box-shadow: 0.5rem 0.5rem 1rem 0.5rem rgba(46, 46, 46, 0.356);
+          box-shadow: 0.5rem 0.5rem 1rem 0.5rem rgba(46, 46, 46, 0.356);
+}
+
+.component-block h1 {
+  font-family: "Dosis", sans-serif;
+  margin-bottom: 1rem;
+  font-size: 2.8rem;
+  font-weight: 800;
+  letter-spacing: 0.5rem;
+}
+
+.component-block p {
+  font-family: "Dosis", sans-serif;
+  font-weight: 300;
+}
+
+.component-block .Red {
+  border: 0.15rem black solid;
+  border-radius: 2rem;
+  margin-bottom: 1rem;
+  background-color: rgba(255, 0, 0, 0.746);
+  width: 2rem;
+  height: 2rem;
+}
+
+.component-block .Green {
+  border: 0.15rem black solid;
+  border-radius: 2rem;
+  margin-bottom: 1rem;
+  background-color: #00ff0db2;
+  width: 2rem;
+  height: 2rem;
+}
+
+.component-block .Yellow {
+  border: 0.15rem black solid;
+  border-radius: 2rem;
+  margin-bottom: 1rem;
+  background-color: #d0ff00d7;
+  width: 2rem;
+  height: 2rem;
+}
+/*# sourceMappingURL=priority.css.map */

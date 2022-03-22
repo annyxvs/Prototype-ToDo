@@ -1,0 +1,32 @@
+$background: #6f2dbd;
+$font:  'Dosis', sans-serif;;
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@800&display=swap');
+
+
+.list-main{
+  margin: 4rem;
+  display: flex;
+  .conteiner-list{
+    margin: 0 auto;
+    .insert-task {
+      width: 50vw;
+      border: none;
+      background-color: transparent;
+      outline: 0;
+      transition: 0.5;
+      font-size: 1.4rem;
+      font-family: $font;
+    }
+    .input-task{
+      border-radius: 0.5rem;
+      padding: 0.5rem;
+      display: flex;
+      margin-bottom: 3rem; 
+      border: $background 0.2rem solid;
+    }
+    .image{
+      margin: 0.5rem;
+    }
+  }
+}

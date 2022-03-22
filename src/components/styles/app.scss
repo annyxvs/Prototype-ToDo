@@ -1,0 +1,122 @@
+// Style
+
+.diveider{
+  margin-top: 2rem;
+  height: 0.1rem;
+  background: rgb(106,27,120);
+  background: linear-gradient(270deg, rgba(106,27,120,0.7175245098039216) 56%, rgba(228,228,228,0.6671043417366946) 82%);
+}
+
+html{
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  background-color: #e4e4e4;
+}
+
+.bnt-back{
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  border-radius: 1rem;
+  background-color: #6f3dbd;
+  padding: 0.4rem;
+  color: #ffff;
+  transition: background 0.3s;
+  cursor: pointer;
+  z-index: 9999;
+}
+
+.bnt-back:hover{
+  background-color: #38005d;
+}
+
+
+// Scroll
+
+::-webkit-scrollbar{
+  width: 0.15rem;
+  background-color: #6f3dbd;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: #ffff;
+
+}
+
+
+
+// Media Query 
+
+@media (max-width: 986px){
+  body{
+    overflow-y: hidden;
+  }
+  .img-main{
+    display: none;
+  }
+  .section-part{
+    display: none;
+  }
+  .task-img{
+    display: none;
+  }
+  .social{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 800px){
+  body{
+    overflow-y: hidden;
+  }
+  .priority{
+    display: flex;
+    flex-direction: column;
+    .component-block{
+      width: auto;
+    }
+  }
+}
+
+@media (max-width: 380px){
+  body{
+    overflow-y: hidden;
+  }
+  .singin{
+    display: none;
+  }
+  .social a{
+    display: none;
+  }
+  .List-item{
+    height: 30vh;
+    .label{
+      font-size: 1rem;
+    }
+  }
+  .select{
+    opacity: 0;
+  }
+}
+
+@media (max-width: 500px){
+  .app{
+    overflow-x: hidden;
+  }
+  .main{
+    height: 110vh;
+  }
+  .conteiner-list{
+    width: 60vw;
+  }
+  label{
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px){
+  .select{
+    opacity: 0;
+  }
+}

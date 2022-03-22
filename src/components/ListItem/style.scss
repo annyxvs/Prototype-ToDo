@@ -1,0 +1,51 @@
+$background: #6f2dbd;
+$font:  'Dosis', sans-serif;;
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@800&display=swap');
+
+
+.List-item{
+  box-sizing: border-box;
+  border-radius: 0.3rem;
+  background-color: $background;
+  padding: 1rem;
+  color: #fff;
+  margin: 1rem;
+  font-family: $font;
+  font-size: 1rem;
+  display: grid;
+  grid-template-columns: 0.15fr 2fr 0.1fr;
+  align-items: center;
+  .checked{
+    margin-right: 0.5rem;
+    border: none;
+  }
+  option{
+    color: #fff;
+  }  
+  select{
+    width: auto;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    margin-left: 5rem;
+    align-items: flex-end;
+    background-color: transparent;
+    outline: 0;
+    border: none;
+    border-radius: 2rem;
+  }
+  label{
+    font-size: 1.6rem;
+  }
+}
+
+option[value="red"]{
+  background-color: red;
+}
+option[value="green"]{
+  background-color: rgba(30, 195, 66, 0.801);
+}
+option[value="yellow"]{
+  background-color: rgba(175, 231, 21, 0.829);
+}

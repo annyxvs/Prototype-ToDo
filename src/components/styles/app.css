@@ -1,0 +1,125 @@
+.diveider {
+  margin-top: 2rem;
+  height: 0.1rem;
+  background: #6a1b78;
+  background: -webkit-gradient(linear, right top, left top, color-stop(56%, rgba(106, 27, 120, 0.717525)), color-stop(82%, rgba(228, 228, 228, 0.667104)));
+  background: linear-gradient(270deg, rgba(106, 27, 120, 0.717525) 56%, rgba(228, 228, 228, 0.667104) 82%);
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  background-color: #e4e4e4;
+}
+
+.bnt-back {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  border-radius: 1rem;
+  background-color: #6f3dbd;
+  padding: 0.4rem;
+  color: #ffff;
+  -webkit-transition: background 0.3s;
+  transition: background 0.3s;
+  cursor: pointer;
+  z-index: 9999;
+}
+
+.bnt-back:hover {
+  background-color: #38005d;
+}
+
+::-webkit-scrollbar {
+  width: 0.15rem;
+  background-color: #6f3dbd;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #ffff;
+}
+
+@media (max-width: 986px) {
+  body {
+    overflow-y: hidden;
+  }
+  .img-main {
+    display: none;
+  }
+  .section-part {
+    display: none;
+  }
+  .task-img {
+    display: none;
+  }
+  .social {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media (max-width: 800px) {
+  body {
+    overflow-y: hidden;
+  }
+  .priority {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .priority .component-block {
+    width: auto;
+  }
+}
+
+@media (max-width: 380px) {
+  body {
+    overflow-y: hidden;
+  }
+  .singin {
+    display: none;
+  }
+  .social a {
+    display: none;
+  }
+  .List-item {
+    height: 30vh;
+  }
+  .List-item .label {
+    font-size: 1rem;
+  }
+  .select {
+    opacity: 0;
+  }
+}
+
+@media (max-width: 500px) {
+  .app {
+    overflow-x: hidden;
+  }
+  .main {
+    height: 110vh;
+  }
+  .conteiner-list {
+    width: 60vw;
+  }
+  label {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .select {
+    opacity: 0;
+  }
+}
+/*# sourceMappingURL=app.css.map */
