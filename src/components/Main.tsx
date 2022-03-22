@@ -19,8 +19,8 @@ const Main = () =>{
           <img  className="img-main" src={Imghome} alt=""/>
         </div>
         <div className="social">
-          <a href="#"> <AiFillGithub/> Github</a>
-          <a href="#"><AiFillLinkedin/>Linkedin</a>
+          <a href="https://github.com/annyxvs"> <AiFillGithub/> Github</a>
+          <a href="https://www.linkedin.com/in/annyxvs/"><AiFillLinkedin/>Linkedin</a>
         </div>
 
       </div>  
