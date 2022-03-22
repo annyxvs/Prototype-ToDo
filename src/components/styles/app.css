@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap");
 .diveider {
   margin-top: 2rem;
   height: 0.1rem;
@@ -28,6 +29,11 @@ html {
 
 .bnt-back:hover {
   background-color: #38005d;
+}
+
+footer {
+  padding: 0.2rem;
+  font-family: "Dosis", sans-serif;
 }
 
 ::-webkit-scrollbar {

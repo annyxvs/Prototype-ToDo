@@ -37,7 +37,7 @@ function App() {
       </div>
         <div className="diveider"></div>
       <List/>
-     
+      <footer>@annyxvs</footer>
        <BiChevronsUp className={scroll ? "bnt-back" : ""} onClick={backToTop} />
     </div>
   )
